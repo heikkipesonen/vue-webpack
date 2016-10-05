@@ -1,6 +1,6 @@
-# wall
+# vue webpack template
 
-> seinä of things
+A vue-webpack template with vue-router and things
 
 ## Build Setup
 
