@@ -6,10 +6,8 @@ import router from './router'
 import App from './App'
 
 /* eslint-disable no-new */
-const app = new Vue({
+new Vue({
   store,
   router,
   render: h => h(App)
 }).$mount('#app')
-
-console.log(app)

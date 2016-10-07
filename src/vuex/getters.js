@@ -1,1 +1,5 @@
-export const getter = (state) => state
+export default {
+  viewPort (state) {
+    return state.view
+  }
+}

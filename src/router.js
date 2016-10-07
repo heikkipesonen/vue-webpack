@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuerouter from 'vue-router'
-import View from './components/view'
+import Canvas from './components/canvas'
 
 Vue.use(Vuerouter)
 /* eslint-disable no-new */
@@ -8,9 +8,13 @@ const router = new Vuerouter({
   routes: [
     {
       path: '/',
-      component: View
+      component: Canvas
+    },
+    {
+      path: '/kissa',
+      component: Canvas
     }
   ]
 })
-
+console.log(router)
 export default router
