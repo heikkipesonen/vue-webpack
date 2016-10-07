@@ -16,5 +16,5 @@ const router = new Vuerouter({
     }
   ]
 })
-console.log(router)
+
 export default router

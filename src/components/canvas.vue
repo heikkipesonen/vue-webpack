@@ -29,12 +29,11 @@ export default {
 
   computed: {
     view () {
-      console.log(this.$store.getters)
       return this.$store.getters.viewPort
     },
 
     center () {
-      // return this.toCanvas(this.view.size.width / 2, this.view.size.height / 2)
+      return this.toCanvas(this.view.size.width / 2, this.view.size.height / 2)
     },
 
     style () {
@@ -167,7 +166,6 @@ export default {
         center: this.toCanvas(this.view.size.width / 2, this.view.size.height / 2)
       }
 
-      console.log('acku', position)
       this.setView(position)
     }
   },
