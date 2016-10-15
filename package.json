@@ -1,5 +1,5 @@
 {
-  "name": "wall",
+  "name": "a vue webpack template",
   "version": "1.0.0",
   "description": "WEBPACK TEMPLATE",
   "author": "heikkipesonen <heikki.pesonen@sysart.fi>",
@@ -13,8 +13,6 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "node-sass": "^3.10.1",
-    "sass-loader": "^4.0.2",
     "vue": "^2.0.1",
     "vue-router": "^2.0.0",
     "vuex": "^2.0.0"
@@ -74,6 +72,8 @@
     "webpack": "^1.13.2",
     "webpack-dev-middleware": "^1.8.3",
     "webpack-hot-middleware": "^2.12.2",
-    "webpack-merge": "^0.14.1"
+    "webpack-merge": "^0.14.1",
+    "node-sass": "^3.10.1",
+    "sass-loader": "^4.0.2"
   }
 }
