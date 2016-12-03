@@ -9,10 +9,6 @@ const router = new Vuerouter({
     {
       path: '/',
       component: Canvas
-    },
-    {
-      path: '/kissa',
-      component: Canvas
     }
   ]
 })
