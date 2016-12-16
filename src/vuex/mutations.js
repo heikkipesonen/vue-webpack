@@ -5,7 +5,9 @@ const mutations = {
    * @param {payload} payload
    * @example
    * setView (state, payload) {
-   * 	state.payload = payload
+   *  state.payload = payload
    * }
    */
 }
+
+export default mutations
